@@ -1,0 +1,64 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #ced2ff;
+  color: #621eaa;
+}
+
+header {
+  background-color: #5672e094;
+  padding: 30px;
+}
+
+header h1 {
+  margin: 0;
+  color: #621eaa;
+}
+
+main {
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+h2 {
+  color: #621eaa;
+}
+
+form {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+input[type="text"], input[type="number"] {
+  flex-basis: 100%;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+button {
+  padding: 5px 10px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+}
+
+li {
+  margin-bottom: 10px;
+  margin-right: 10%;
+}
+
+footer {
+  background-color: #5672e094;
+  padding: 20px;
+  text-align: center;
+  color: #621eaa;
+  position: absolute;
+  width:100%;
+  bottom: 0;
+
+}

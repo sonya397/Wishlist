@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Wish List</title>
+  <link rel="stylesheet" type="text/css" href="wishlist2.css">
+</head>
+<body>
+  <header>
+    <center><h1>My Wish List</h1></center>
+  </header>
+  <main>
+    <script>
+    alert("Welcome");
+    let n=prompt( "What is your name:");
+    alert ("Hello, " + n + "!");
+    </script>
+    <section>
+      <h2>Add Items to Your Wish List</h2>
+      <form id="wishlistForm">
+        <input type="text" id="itemInput" placeholder="Enter an item">
+        <input type="text" id="shopInput" placeholder="Enter the shop">
+        <input type="number" id="priceInput" placeholder="Enter the price">
+        <button type="submit">Add</button>
+      </form>
+    </section>
+    <section>
+      <h2> Wish List</h2>
+      <ul id="wishlistItems">
+      </ul>
+    </section>
+  </main>
+  <footer>
+    <p style="font-size: 30px;">My Wish List.</p>
+  </footer>
+  <script src="wishlist2.js"></script>
+</body>
+</html>
